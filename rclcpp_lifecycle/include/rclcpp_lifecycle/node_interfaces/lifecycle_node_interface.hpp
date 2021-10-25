@@ -22,6 +22,10 @@
 #include "rclcpp_lifecycle/state.hpp"
 #include "rclcpp_lifecycle/visibility_control.h"
 
+#ifdef ERROR
+#undef ERROR
+#endif
+
 namespace rclcpp_lifecycle
 {
 namespace node_interfaces
